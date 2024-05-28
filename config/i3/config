@@ -9,7 +9,7 @@
 #
 # Please see https://i3wm.org/docs/userguide.html for a complete reference!
 
-set $mod Mod1
+set $mod Mod4
 
 # Font for window titles. Will also be used by the bar unless a different font
 # is used in the bar {} block below.
@@ -144,9 +144,9 @@ bindsym $mod+Shift+0 move container to workspace number $ws10
 
 # default workspaces
 assign [class="firefox"] $ws1
-assign [class="code-oss"] $ws3
+assign [class="vscodium"] $ws3
 assign [class="discord"] $ws9
-assign [class="jellyfin"] $ws10
+assign [class="crx kadfhgojkcaijlabfhpbplkbielgchoj"] $ws10
 
 # remove title/border
 for_window [class="^.*"] border pixel 0
@@ -201,8 +201,8 @@ bar {
 }
 
 # startup applications
-exec ~/Applications/Jellyfin/Jellyfin
+exec jellyfin
 exec firefox
-exec code
+exec codium
 exec discord
 exec feh --bg-fill ~/Pictures/wallpaper.jpg

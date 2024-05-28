@@ -1,3 +1,7 @@
+[core]
+	editor = nano
 [user]
 	name = Zunawe
 	email = gyroscope15@gmail.com
+[init]
+	defaultBranch = main
